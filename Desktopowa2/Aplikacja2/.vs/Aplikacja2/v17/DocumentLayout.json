@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\uczen\\Documents\\Kody\\T4\\Desktopy\\Desktopowa2\\Aplikacja2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AACE168F-3815-4F07-AD26-65C168166FB3}|Aplikacja2\\Aplikacja2.csproj|c:\\users\\uczen\\documents\\kody\\t4\\desktopy\\desktopowa2\\aplikacja2\\aplikacja2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AACE168F-3815-4F07-AD26-65C168166FB3}|Aplikacja2\\Aplikacja2.csproj|solutionrelative:aplikacja2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AACE168F-3815-4F07-AD26-65C168166FB3}|Aplikacja2\\Aplikacja2.csproj|c:\\users\\uczen\\documents\\kody\\t4\\desktopy\\desktopowa2\\aplikacja2\\aplikacja2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AACE168F-3815-4F07-AD26-65C168166FB3}|Aplikacja2\\Aplikacja2.csproj|solutionrelative:aplikacja2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\uczen\\Documents\\Kody\\T4\\Desktopy\\Desktopowa2\\Aplikacja2\\Aplikacja2\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Aplikacja2\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\uczen\\Documents\\Kody\\T4\\Desktopy\\Desktopowa2\\Aplikacja2\\Aplikacja2\\MainWindow.xaml",
+              "RelativeToolTip": "Aplikacja2\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-07T09:35:11.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\uczen\\Documents\\Kody\\T4\\Desktopy\\Desktopowa2\\Aplikacja2\\Aplikacja2\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Aplikacja2\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\uczen\\Documents\\Kody\\T4\\Desktopy\\Desktopowa2\\Aplikacja2\\Aplikacja2\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Aplikacja2\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAQwHwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T09:35:09.786Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

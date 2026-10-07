@@ -1,0 +1,26 @@
+﻿<Window x:Class="Aplikacja2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Aplikacja2"
+        mc:Ignorable="d"
+        Title="Rysowanie figur - INF.04" Height="600" Width="800">
+    <Grid>
+        <Canvas x:Name="drawCanva" Background="#F0F0F0">
+            <Canvas.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Dodaj figurę">
+                        <MenuItem Header="Koło" Click="MenuItem_Click"/>
+                        <MenuItem Header="Kwadrat" Click="MenuItem_Click"/>
+                        <MenuItem Header="Prostokąt" Click="MenuItem_Click"/>
+                    </MenuItem>
+                </ContextMenu>
+            </Canvas.ContextMenu>
+        </Canvas>
+
+        <StatusBar VerticalAlignment="Bottom">
+            <StatusBarItem x:Name="stbLiczby" Content="Liczba elementow: 0" HorizontalAlignment="Left"/>
+        </StatusBar>
+    </Grid>
+</Window>
