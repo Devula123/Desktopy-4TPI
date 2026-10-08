@@ -1,0 +1,20 @@
+Myszka bezprzewodowa,79.99,15
+Klawiatura mechaniczna,249.50,8
+Monitor 27 cali,899.00,3
+Podkładka pod mysz,29.99,50
+Słuchawki nagłowne,189.00,12
+Kamera internetowa Full HD,129.90,20
+Mikrofon pojemnościowy,219.00,7
+Dysk SSD 1TB NVMe,349.99,10
+Pamięć RAM 16GB DDR4,159.00,25
+Zasilacz 650W Gold,299.00,6
+Obudowa komputerowa ATX,199.50,4
+Chłodzenie procesora,139.00,9
+Karta graficzna RTX 4060,1399.00,2
+Procesor 8-rdzeniowy,849.00,5
+Płyta główna B550,429.00,8
+Kabel HDMI 2.1 2m,35.00,40
+Listwa zasilająca,49.90,30
+Pendrive 128GB USB 3.2,45.00,35
+Router Wi-Fi 6,229.00,11
+Głośniki komputerowe 2.1,169.90,14
