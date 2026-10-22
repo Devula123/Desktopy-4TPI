@@ -1,0 +1,23 @@
+﻿<Window x:Class="canvas_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:canvas_"
+        mc:Ignorable="d"
+        Title="Plan pokoju 2D" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0" Orientation="Vertical">
+            <Button Content="Dodaj Stół" Width="150" Margin="5" Height="30" Click="Button_Click"/>
+            <Button Content="Dodaj Łóżko" Width="150" Margin="5" Height="30" Click="Button_Click"/>
+            <Button Content="Usuń wszystko" Width="150" Margin="5" Height="30" Click="Button_Click_1"/>
+            <TextBlock Text="Instrukcja: Prawym przyciskiem myszy otiwera sie contextmenu z opcjami edytowania kształtu" Margin="5" TextWrapping="Wrap"/>
+        </StackPanel>
+        <Canvas x:Name="canv" Width="Auto" Height="Auto" Grid.Column="1" Background="Gray"/>
+        
+    </Grid>
+</Window>

@@ -1,0 +1,88 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        Height="350"
+        Width="600">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="5*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="8*" />
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   Text="Rysowanie obiektów"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   FontSize="32"
+                   FontWeight="Bold" />
+
+        <StackPanel Grid.Row="1"
+                    Grid.Column="0"
+                    Orientation="Vertical"
+                    HorizontalAlignment="Center"
+                    x:Name="Panel">
+
+            <TextBlock Text="Wybierz kształt"
+                       FontSize="20" />
+
+            <RadioButton GroupName="ksztalt"
+                         Content="Koło" />
+
+            <RadioButton GroupName="ksztalt"
+                         Content="Kwadrat" />
+
+            <RadioButton GroupName="ksztalt"
+                         Content="Prostokąt" />
+
+            <TextBlock Text="Wybierz kolor"
+                       FontSize="20" />
+
+            <RadioButton GroupName="kolor"
+                         Content="Czerwony" />
+
+            <RadioButton GroupName="kolor"
+                         Content="Niebieski" />
+
+            <RadioButton GroupName="kolor"
+                         Content="Żółty" />
+
+            <TextBlock Text="Wybierz rozmiar"
+                       FontSize="20" />
+
+            <Slider x:Name="slider_"
+                    Value="100"
+                    Minimum="50"
+                    Maximum="250" />
+
+            <Button Content="Rysuj"
+                    Click="Button_Click" />
+            <Button Content="Usun"
+                    Click="Button_Click_1" />
+        </StackPanel>
+
+        <Canvas x:Name="canva"
+                Grid.Column="1"
+                Grid.Row="1" 
+                Background="AliceBlue">
+            <Canvas.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Stworz" Click="MenuItem_Click"></MenuItem>
+                </ContextMenu>
+            </Canvas.ContextMenu>
+        </Canvas>
+
+    </Grid>
+</Window>
